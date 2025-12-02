@@ -173,16 +173,13 @@ export function Members() {
           })}
         </div>
 
-        <div className="mt-12 text-center flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="mt-12 text-center">
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="bg-pink-600 text-white px-8 py-3 rounded-lg hover:shadow-lg transition-shadow flex items-center justify-center gap-2"
+            className="bg-pink-600 text-white px-8 py-3 rounded-lg hover:shadow-lg transition-shadow inline-flex items-center justify-center gap-2"
           >
             <Eye size={20} />
             Voir tous les membres
-          </button>
-          <button className="bg-gray-900 text-white px-8 py-3 rounded-lg hover:shadow-lg transition-shadow">
-            Rejoindre une Catégorie
           </button>
         </div>
       </div>
